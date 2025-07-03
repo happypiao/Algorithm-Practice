@@ -24,7 +24,7 @@ class Solution:
             # 采用列表来计数
             chr_count = [0] * 26
             for char in item:
-                chr_count[(ord(char) - ord('a')) % 26] += 1
+                chr_count[(ord(char) - ord('a'))] += 1
 
             # 字典的key必须是不可变的值
             tmp_result[tuple(chr_count)].append(item)
