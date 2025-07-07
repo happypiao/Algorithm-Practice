@@ -1,3 +1,4 @@
+# 固定长度的滑动窗口
 # 时间复杂度 O(N)
 # 空间复杂度 O(N)
 from typing import List
